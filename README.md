@@ -1,69 +1,73 @@
-# Welcome to your Lovable project
+
+# Weather Panda - A Python-Powered Weather Application
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/45572ef4-06cf-4eda-8ff0-2313411af656
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+Weather Panda is a modern, responsive weather application that simulates integration with a Python backend for weather data processing. The application provides current weather conditions and 5-day forecasts for locations worldwide.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/45572ef4-06cf-4eda-8ff0-2313411af656) and start prompting.
+- Search for weather by location name
+- Display current weather conditions (temperature, feels like, wind, humidity, UV index)
+- Show 5-day weather forecast
+- Toggle between Celsius and Fahrenheit
+- Responsive design works on all devices
+- Weather-appropriate styling and animations
 
-Changes made via Lovable will be committed automatically to this repo.
+## Python Backend Integration
 
-**Use your preferred IDE**
+The application includes a simulated Python backend connection. In a real-world implementation, you would:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Create a Python backend using Flask, FastAPI, or Django
+2. Set up API endpoints that fetch data from weather services
+3. Process and transform the data as needed
+4. Connect the React frontend to your Python API
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Technologies Used
 
-Follow these steps:
+- **Frontend**: React, TypeScript, Tailwind CSS, shadcn/ui
+- **State Management**: React Query
+- **Simulated Backend**: Mocked API calls (representing Python backend)
+- **Icons**: Lucide React
+
+## How to Use
+
+1. Enter a location in the search bar or click on one of the popular city buttons
+2. View the current weather and forecast
+3. Toggle between Celsius and Fahrenheit using the temperature switch
+4. Click "Refresh data" to update the weather information
+
+## Getting Started
+
+Follow these steps to run the project locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Future Enhancements
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Implement a real Python backend using Flask or FastAPI
+- Add geolocation for automatic weather detection
+- Integrate with multiple weather data providers for comparison
+- Add historical weather data and charts
+- Implement weather alerts and notifications
 
-**Use GitHub Codespaces**
+## Credits
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/45572ef4-06cf-4eda-8ff0-2313411af656) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- Weather icons and data structure inspired by [WeatherAPI](https://www.weatherapi.com/)
+- UI design inspired by modern weather applications
