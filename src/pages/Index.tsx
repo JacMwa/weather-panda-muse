@@ -11,7 +11,7 @@ import { LocationSearch } from "@/components/LocationSearch";
 import { TemperatureToggle } from "@/components/TemperatureToggle";
 import { LoadingState } from "@/components/LoadingState";
 import { Cloud, CloudRain, SunSnow } from "lucide-react";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 
 const Index = () => {
   const [location, setLocation] = useState<string>("");
